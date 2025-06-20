@@ -324,8 +324,8 @@ and aircraft care with Flyte Private Jet Rentals.
                 
                 <div class="contact-details">
                     <h2>Contact Details</h2>
-                    <p><strong>Email:</strong> charter@flyte.com</p>
-                    <p><strong>Phone:</strong> +1 (555) FLY-FLYT</p>
+                    <p><strong>Email:</strong> support@flyte.com</p>
+                    <p><strong>Phone:</strong> +1 (555) 456-7123</p>
                     <p><strong>HQ:</strong> 1000 Skyway Blvd, Aviation City, NY 10001</p>
                 </div>
                 
@@ -335,29 +335,26 @@ and aircraft care with Flyte Private Jet Rentals.
                     <i class="fab fa-linkedin-in"></i>
                     <i class="fab fa-twitter"></i>
                 </div>
+                <p>We respond within a few hours.</p>
+          </div>
             </div>
             
             <div class="contact-form">
-                <h2>Request a Quote</h2>
-                <form id="flight-quote">
-                    <div class="form-group">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="trip-details">Trip Details</label>
-                        <textarea id="trip-details" rows="4" required></textarea>
-                    </div>
-                    <button type="submit" class="btn-primary">Request Quote</button>
-                </form>
-            </div>
-        </div>
-    </section>
+          <h2>Send Your Inquiry</h2>
+          <form action="https://formspree.io/f/xdkgrnqg" method="POST">
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" required placeholder="Your email address">
 
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required
+              placeholder="Give us your trip details or ask a question"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
     <footer id="footer">
         <div class="footer-cta">
             <h2>Ready to Experience Premium Air Travel?</h2>
