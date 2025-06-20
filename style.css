@@ -1286,13 +1286,13 @@ section {
 
 
 @media (max-width: 768px) {
-  .autozone-contact {
+  .flyte-contact {
     flex-direction: column;
   }
 }
 
 @media (min-width: 1024px) {
-  .autozone-contact {
+  .flytes-contact {
       margin-top: -90px;
     flex-direction: row;
   }
