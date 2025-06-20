@@ -814,7 +814,7 @@ details[open] summary::after {
 
 .contact-info p:first-child {
   font-weight: bold;
-  color: #f97316; /* orange accent */
+  color: #f916a9; 
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
@@ -836,7 +836,7 @@ details[open] summary::after {
   font-size: 1.5rem;
   border-bottom: 2px solid #f97316;
   padding-bottom: 5px;
-  color: #f97316;
+  color: #f916a9;
 }
 
 .contact-details p {
@@ -853,13 +853,13 @@ details[open] summary::after {
 }
 
 .social-icons i:hover {
-  color: #f97316;
+  color: #f916a9;
 }
 
 .contact-form h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
-  color: #f97316;
+  color: #f916a9;
 }
 
 form {
@@ -888,12 +888,12 @@ form textarea {
 
 form input:focus,
 form textarea:focus {
-  border-color: #f97316;
+  border-color: #f916a9;
   outline: none;
 }
 
 form button {
-  background-color: #f97316;
+  background-color: #f916a9;
   color: white;
   border: none;
   padding: 12px;
